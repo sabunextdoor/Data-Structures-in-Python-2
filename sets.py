@@ -1,0 +1,14 @@
+set1={1,2,3,2,3,4,5,1}
+print(set1)
+set1.add(7)
+print(set1)
+set2={2,3,4,5,6,7}
+set3={6,7,8,9,1,}
+inter=set2.intersection(set3)
+print(inter)
+union=set2.union(set3)
+print(union)
+dif=set2.difference(set3)
+print(dif)
+sdiff=set2.symmetric_difference(set3)
+print(sdiff)
